@@ -9,10 +9,9 @@ export default function TopNavigation( props:{} ){
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
-                    <LinkContainer to="/cart"><Nav.Link>Shopping Cart</Nav.Link></LinkContainer>
+                    <LinkContainer exact to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
                     <LinkContainer to="/wishlist"><Nav.Link>Wishlist</Nav.Link></LinkContainer>
-                    <LinkContainer to="/help"><Nav.Link>Help</Nav.Link></LinkContainer>
+                    
                 </Nav>
                 <Nav>
                 <Nav.Link href="#deets">More deets</Nav.Link>
